@@ -1,0 +1,26 @@
+{
+  "name": "furiosojack/responsejsonphp",
+  "description": "Hace retorno de json con codigos de de estado http",
+  "type": "php",
+  "license": "MIT",
+  "keywords": [
+    "reponse",
+    "json",
+    "php"
+  ],
+  "authors": [
+    {
+      "name": "FuriosoJack",
+      "email": "iam@furiosojack.com"
+    }
+  ],
+  "homepage": "https://github.com/FuriosoJack/ResponseJsonPHP",
+  "autoload": {
+    "psr-4": {
+      "FuriosoJack\\ResponseJsonPHP\\": "src"
+    }
+  },
+  "require": {
+    "php": ">= 5.3"
+  }
+}
