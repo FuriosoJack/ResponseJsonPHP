@@ -6,6 +6,11 @@ namespace FuriosoJack\ResponseJsonPHP;
  */
 class ResponseJson
 {
+    /**
+     *
+     * @param $statusCode
+     * @param $data
+     */
     public static function build($statusCode, $data)
     {
         header('Content-Type: application/json' );
